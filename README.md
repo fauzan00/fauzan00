@@ -1,3 +1,5 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppin&weight=900&size=30&pause=1000&color=C5D7FF&width=435&lines=Welcome+to+My+Github++Repo)](https://git.io/typing-svg)
+
 <!--
 ## Hi there 👋
 
