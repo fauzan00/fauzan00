@@ -1,5 +1,9 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppin&weight=900&size=30&pause=1000&color=0082FF&width=435&lines=Welcome+to+MyGithub++Repo)](https://git.io/typing-svg)
 
+<div align="center">
+  <img alt="computer" src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif"><br>
+</div>
+
 <!--
 ## Hi there 👋
 
