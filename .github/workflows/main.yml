@@ -7,15 +7,17 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # allow writing with GITHUB_TOKEN
+  contents: write   # allow writing with token
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repo with default GITHUB_TOKEN
+      # Checkout repo with your custom token (README_GITHUB secret)
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.README_GITHUB }}
 
       # Generate the snake
       - uses: Platane/snk@v3
@@ -27,12 +29,12 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Push new files to README_GITHUB branch
-      - name: Push new files to README_GITHUB branch
+      # Push new files to output branch
+      - name: Push new files to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: README_GITHUB
+          target_branch: output
           build_dir: dist
           commit_message: "Update snake animations"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.README_GITHUB }}
