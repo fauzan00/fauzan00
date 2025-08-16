@@ -1,43 +1,38 @@
-# GitHub Action for generating a contribution graph with a snake eating your contributions.
-
 name: Generate Snake
 
 on:
   schedule:
-    # Runs every 6 hours
-    #- cron: "0 */6 * * *"
     # Runs every week (Sunday at midnight UTC)
     - cron: "0 0 * * 0"
   workflow_dispatch:
+
+permissions:
+  contents: write   # allow writing with GITHUB_TOKEN
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repo content
+      # Checkout repo with default GITHUB_TOKEN
       - uses: actions/checkout@v3
 
       # Generate the snake
       - uses: Platane/snk@v3
         id: snake-gif
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: fauzan00
           outputs: |
             dist/github-contribution-grid-snake.gif
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Show build status (for debugging)
-      - name: Show build status
-        run: git status
-
-      # Push new files to output branch
-      - name: Push new files to output branch
+      # Push new files to README_GITHUB branch
+      - name: Push new files to README_GITHUB branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output
+          target_branch: README_GITHUB
           build_dir: dist
           commit_message: "Update snake animations"
         env:
-          GITHUB_TOKEN: ${{ secrets.README_GITHUB }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
