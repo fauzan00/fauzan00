@@ -1,3 +1,6 @@
+<title>Fauzan - Full Stack Web Developer</title>
+<meta name="description" content="Fauzan is a web developer specializing in JavaScript, React, Python, and Django. View my GitHub projects and portfolio.">
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppin&weight=900&size=30&pause=1000&color=0082FF&width=435&lines=Welcome+to+MyGithub++Repo)](https://git.io/typing-svg)
 
 <div align="center">
