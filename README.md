@@ -1,5 +1,34 @@
-<title>Fauzan - Full Stack Web Developer</title>
-<meta name="description" content="Fauzan is a web developer specializing in JavaScript, React, Python, and Django. View my GitHub projects and portfolio.">
+# Fauzan - Full Stack Web Developer from Malaysia 🇲🇾
+
+**Malaysian Web Developer | JavaScript | React | Python | Laravel | Cloud Infrastructure Expert**
+
+📍 Kuala Lumpur, Malaysia | 💻 Building scalable web applications & cloud solutions
+
+---
+
+## 👋 About Me
+
+Hi! I'm **Fauzan**, a Malaysian full-stack developer passionate about creating modern web applications. Based in Malaysia, I specialize in JavaScript, React, Python, and Laravel development with expertise in cloud infrastructure and system administration.
+
+## 🔧 Tech Stack & Expertise
+
+### **Web Development**
+- **Frontend:** JavaScript, React, HTML5, CSS3
+- **Backend:** Node.js, Python (Django), PHP (Laravel), Java
+- **Databases:** MySQL, MariaDB, SQLite, Redis
+- **Cloud & DevOps:** Vultr, Cloudflare, Nginx, Apache, Docker
+- **Tools:** Git, GitHub, Jira, Postman, Trello
+
+## 🏆 Featured Malaysian Projects
+
+### 🛍️ [E-commerce Website](https://github.com/fauzan00/e-commerce)
+Full-stack React e-commerce platform perfect for Malaysian online businesses. Features multi-language support, local payment gateways, and responsive design.
+
+### 🎓 [Student Management System](https://github.com/fauzan00/student)
+Django-based system tailored for Malaysian educational institutions. Includes attendance tracking, grade management, and reporting modules.
+
+### 📋 [Form Validation Library](https://github.com/fauzan00/form-validation)
+JavaScript validation library with support for Malaysian-specific formats (IC numbers, phone numbers, addresses).
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppin&weight=900&size=30&pause=1000&color=0082FF&width=435&lines=Welcome+to+MyGithub++Repo)](https://git.io/typing-svg)
 
